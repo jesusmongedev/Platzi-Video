@@ -1,0 +1,13 @@
+/*** Login - Header - Styles ***/
+
+header .header__logo {
+    width: 200px;
+    cursor: pointer;
+    padding: 40px 0 30px 20px;
+}
+
+@media screen and (min-width: 425px) {
+    header .header__logo {
+        padding: 40px 0 20px 20px;
+    }
+}
