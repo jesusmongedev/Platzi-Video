@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 404 Error </title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- 404 Error Header Section -->
     <header>
-        <img src="../assets/img/logo-platzi-video-BW2.png" alt="Platzi Logo">
+        <a href="../index.html">
+            <img src="../assets/img/logo-platzi-video-BW2.png" alt="Platzi Logo">
+        </a>
     </header>
 
     <!-- 404 error main section -->
     <main>
         <section>
             <div class="error-container">
-                <h1 class="error-container__404">404</h1>
+                <h1 class="error-container__404 animated pulse">404</h1>
                 <h2 class="error-container__subtitle">Page not found</h2>
                 <p class="error-container__description"> The page you are looking is not available </p>
-                <input class="error-container__button" type="button" value="Back to Home">
+                <a href="../index.html"> <button class="error-container__button">Back to Home</button> </a>
             </div>
         </section>
 
-        <!-- Error Footer Section -->
-        <footer>
-            <a href="">Contact</a>
-            <a href="">About</a>
-        </footer>
-
+        
     </main>
+    
+    <!-- Error Footer Section -->
+    <footer class="error-footer">
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </footer>
 
 </body>
 </html>

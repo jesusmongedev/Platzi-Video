@@ -1,8 +1,8 @@
 /*** Estilos Importados ***/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-@import url(../css/register-header.css);
-@import url(../css/register-container.css);
-@import url(../css/register-footer.css);
+@import url(register-header.css);
+@import url(register-container.css);
+@import url(register-footer.css);
 
 * {
     margin: 0;

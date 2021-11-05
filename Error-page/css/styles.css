@@ -1,7 +1,8 @@
 /* Import styles */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-@import url(./error-header.css);
-@import url(./error-main-section.css);
+@import url(error-header.css);
+@import url(error-main-section.css);
+@import url(error-main-footer.css);
 
 * {
     margin: 0;
@@ -18,5 +19,5 @@ body {
     background-image: url(/assets/img/header-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }

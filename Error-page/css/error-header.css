@@ -6,4 +6,5 @@ header {
 header img {
     width: 200px;
     padding: 20px 0 0 30px;
+    cursor: pointer;
 }
