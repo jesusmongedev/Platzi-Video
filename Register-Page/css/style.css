@@ -15,6 +15,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    background: url(/assets/img/header-background.jpg) no-repeat;
+    background: url(../../assets/img/header-background.jpg) no-repeat;
     background-size: cover;
 }
