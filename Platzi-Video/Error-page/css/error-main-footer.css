@@ -1,0 +1,21 @@
+.error-footer {
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 64.69px);
+}
+
+.error-footer a {
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.error-footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .error-footer a {
+        font-size: 1.4rem;
+    }
+}

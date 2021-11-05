@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img tabindex="0" class="header__logo" src="../assets/img/logo-platzi-video-BW2.png" alt="Logo de Platzi Video">
+        </a>
+    </header>
+    
+    <!-- Login container -->
+    <section class="login">
+        <section class="login__container">
+            <h2 tabindex="0" class="login__container__title">Login</h2>
+            <form action="" class="login__container__form">
+                <div class="login__container__text-box">
+                    <i class="bx bx-mail-send" ></i> 
+                    <input aria-label="Ingrese su correo electronico" type="email" id="email" class="input" placeholder="Mail">                   
+                </div>
+                <div class="login__container__text-box">
+                    <i class="bx bxs-lock-alt" ></i>
+                    <input aria-label="Ingrese su contraseña" type="password" id="password" class="input" placeholder="Password">
+                </div>
+                <a class="log-in--btn" href="../index.html"> <button > Sign in </button> </a>
+                <div class="login__container__remember-me">
+                    <label for="checkbox"> 
+                        <input type="checkbox" name="checkbox" id="checkbox"> 
+                        Remember me 
+                    </label>
+                    <a href="#">Forgot password</a>
+                </div>
+            </form>     
+            <section class="login__container__social-media">
+                <div>
+                    <img src="../assets/img/google-icon.png" alt="Google Logo">
+                    <p tabindex="0"> Log in with <span> Google </span> </p> 
+                </div>
+                <div>
+                    <img src="../assets/img/twitter-icon.png" alt="Twitter Logo">
+                    <p tabindex="0"> Log in with <span>  Twitter </span> </p>  
+                </div>
+            </section>
+            <p class="login__container__register"> No tiene ninguna cuenta <a href="../Register-Page/register.html"> Regístrate </a> </p>
+        </section>
+
+        <!-- Login - Footer -->
+        <footer class="login__footer">
+            <a href="#"> Declaración de privacidad </a>
+            <a href="#"> Términos de uso </a>
+            <a href="#"> Centro de ayuda </a>
+        </footer>
+
+    </section>
+</body>
+</html>
